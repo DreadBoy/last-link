@@ -5,6 +5,8 @@ public class CharacterStats : ScriptableObject {
 
     public float speed;
 
+
+#if UNITY_EDITOR
     [MenuItem("Assets/Create/Last Link/Character stats")]
     public static void CreateCharacterStats()
     {
@@ -22,4 +24,5 @@ public class CharacterStats : ScriptableObject {
 
         Selection.activeObject = asset;
     }
+#endif
 }

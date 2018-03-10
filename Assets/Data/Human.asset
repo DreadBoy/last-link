@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 147d4b5ed9890af4698ef5395aecefb9, type: 3}
-  m_Name: Player
+  m_Name: Human
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
